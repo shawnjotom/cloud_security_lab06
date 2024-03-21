@@ -17,7 +17,7 @@ provider "aws" {
 
 provider "vault" {
   address = "http://127.0.0.1:8200"
-  token   = "hvs.LksRvL7AKKWO0pWxmRbs0ofE"
+  token   = "your_root_token"
 }
 
 resource "aws_iam_role" "my-role" {
